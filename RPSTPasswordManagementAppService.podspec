@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/RPSTPasswordManagementAppService.git", :tag => s.version.to_s }
+  s.source       = { :git => "git@github.com:treehouse/RPSTPasswordManagementAppService.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
