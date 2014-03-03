@@ -19,14 +19,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "A short description of RPSTPasswordManagementAppService."
 
-  s.description  = <<-DESC
-                   A longer description of RPSTPasswordManagementAppService in Markdown format.
-
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
-                   DESC
+  s.description  = "Passwords"
 
   s.homepage     = "https://github.com/treehouse/RPSTPasswordManagementAppService"
   
@@ -39,8 +32,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = 'MIT (example)'
-  # s.license      = { :type => 'MIT', :file => 'LICENSE.md' }
+  
+  s.license      = { :type => 'MIT', :file => 'LICENSE.md' }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -50,10 +43,9 @@ Pod::Spec.new do |s|
   #  found CocoaPods accept just the names.
   #
 
-  s.author             = { "Robert Mozayeni" => "dev@mozayeni.com" }
-  # s.authors          = { "Robert Mozayeni" => "dev@mozayeni.com", "other author" => "email@address.com" }
-  # s.author           = 'Robert Mozayeni', 'other author'
-  # s.social_media_url = "http://twitter.com/Robert Mozayeni"
+  
+  s.authors          = { "Marshall Huss" => "marshall@teamtreehouse.com", "Robert Mozayeni" => "rsm@teamtreehouse.com" }
+  
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -86,7 +78,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = '*.{h,m}'
-  s.exclude_files = 'Classes/Exclude'
+  
 
   # s.public_header_files = 'Classes/**/*.h'
 
