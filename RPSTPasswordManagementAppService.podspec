@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
   #
 
   
-  s.authors          = { "Marshall Huss" => "marshall@teamtreehouse.com", "Robert Mozayeni" => "rsm@teamtreehouse.com" }
+  s.author          = 'Riposte LLC.'
   
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
